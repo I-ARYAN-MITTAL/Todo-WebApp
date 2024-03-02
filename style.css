@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 2px;
+	padding: 2px;
+    background-color:#252422 ;
+}
+
+h1 {
+	background-color: #EB5E28;
+	color: #252422;
+	padding: 10px;
+	text-align: center;
+}
+
+#task-form {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#task-input {
+	border: 2px solid #f41111;
+    border-radius: 10px;
+	padding: 5px;
+	flex-grow: 1;
+	margin-right: 10px;
+    margin-left: 5px;
+}
+
+#add-task-btn {
+	background-color: #EB5E28;
+	border:2px solid #CCC5B9 ;
+	color: black;
+	padding: 5px 10px;
+	cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight:bolder;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+
+
+#task-list {
+	list-style:none;
+	padding: 10px;
+	margin: 10px;
+}
+
+#task-list li {
+	background-color: #EB5E28;
+	border-bottom: 2px solid #CCC5B9;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#task-list li:last-child {
+	border-bottom: 2px solid #CCC5B9;
+}
+
+#task-list li .remove-task {
+	background-color: #000000;
+	color: #FFFCF2;
+	padding: 5px 10px;
+	border: 2px solid #CCC5B9;
+	cursor: pointer;
+	margin-left: 10px;
+    border-radius: 15px;
+    
+}
+
+#task-list li .remove-task:hover {
+	background-color: rgb(224, 11, 11);
+}
